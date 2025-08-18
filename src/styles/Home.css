@@ -1,0 +1,10 @@
+/* Home.css */
+.hero {
+  background: url('../../public/hero-image.jpg') center/cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

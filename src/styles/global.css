@@ -1,0 +1,55 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+:root {
+  --primary-color: #495e57;
+  --secondary-color: #f4ce14;
+  --dark-color: #333;
+  --light-color: #fff;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--dark-color);
+}
+
+main {
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f4ce14;
+}
+
+/* Grille responsive */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
